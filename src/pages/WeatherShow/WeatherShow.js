@@ -1,4 +1,4 @@
-import WeatherHome from "../../components/Weather/Weather"
+import WeatherHome from "../../components/Weather/WeatherDetail"
 
 function WeatherShow() {
     return(

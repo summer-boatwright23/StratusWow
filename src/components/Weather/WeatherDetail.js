@@ -7,6 +7,7 @@ export default function WeatherDetail({locations}) {
   const [loading, setLoading] = useState(false);
   const {id} = useParams();
   const location = locations.find(loc => loc.name===id)
+  console.log(location)
   const fetchCity = async () => {
     try {
       const urlLA =
@@ -27,12 +28,13 @@ export default function WeatherDetail({locations}) {
     <div>
       {weather ? (
         <div>
+          <h1>{location.name}</h1>
           {/* <h1>Los Angeles</h1> */}
           <p>Temp: {weather && weather.current_weather?.temperature}°F</p>
           <p>High:{weather && weather.daily?.apparent_temperature_max[0]}°F</p>
           <p>Low: {weather && weather.daily?.apparent_temperature_min[0]}°F</p>
           <p>Chance of Precipitation: {weather && weather.hourly?.precipitation_probability[0]}%</p>
-          
+          <img src = {location.imgURL} />
         </div>
       ) : (
         <p>loading...</p>

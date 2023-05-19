@@ -3,7 +3,8 @@
 This is a fully functional React application where users can view the current weather condiditions of the avaliable listed cities.
 
 ## Application Previews
-Site Map
+
+# Site Map
 ![WireFrame Screenshot](src/components/imgs/AppMap.png)
 
 

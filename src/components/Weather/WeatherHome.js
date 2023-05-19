@@ -27,16 +27,21 @@ export default function WeatherHome({locations}) {
     <div>
       {/* {weather ? ( */}
         <div>
-          {/* <h1>Los Angeles</h1> */}
-          {/* <p>Temp: {weather && weather.current_weather?.temperature}°F</p>
-          <p>High:{weather && weather.daily?.apparent_temperature_max[0]}°F</p>
-          <p>Low: {weather && weather.daily?.apparent_temperature_min[0]}°F</p>
-          <p>Chance of Precipitation: {weather && weather.hourly?.precipitation_probability[0]}%</p> */}
           this is the home page
         </div>
       {/* ) : (
         <p>loading...</p>
       )} */}
+        <div class='ratio ratio-4x3'>
+          <iframe
+            src='https://www.youtube.com/embed/videoseries?list=PLthVfbMi02IO8pU5a9b8qeUBZl7PS_Ty9'
+            title='YouTube video'
+            width="600xp"
+            height="370px"
+            allowFullScreen
+          ></iframe>
+        </div>
+     
     </div>
   );
 }

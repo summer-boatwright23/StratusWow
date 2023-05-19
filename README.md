@@ -17,7 +17,7 @@ Site Map
 
 # Technologies Used:
 
-React, API, Javascript, CSS, JSX, and Netlify
+Trello, React, Open Weather API, Javascript, CSS, JSX, and Netlify
 
 # Getting Started:
 

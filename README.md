@@ -1,21 +1,32 @@
-Stratus Wow🌤️
+###Stratus Wow🌤️
+
 This is a fully functional React application where users can view the current weather condiditions of the avaliable listed cities.
 
 Application Previews
-preview
 
-preview
+Home Page
+![React Application](src/components/imgs/HomePageIMG.png)
+
+
+WireFrame
+![WireFrame](src/components/imgs/Wireframe.png)
+
+
+Site Map
+![WireFrame Screenshot](src/components/imgs/AppMap.png)
+
 
 Technologies Used:
 React, API, Javascript, CSS, JSX, and Netlify
 
 Getting Started:
-https://safe-castle-74268.herokuapp.com/
+https://stratus-wow.netlify.app
 
-When the site loads, the user will land on our homepage and see our greeting message. If a user is not logged in they will only have access to the All Books index, along with the reviews attached to each individual book. They will not be able to leave a review until they log in with Google Authorization.
+When the site loads, the user will land on the homepage and see the greeting message as well as a live camera playlist of most of all of the major cities that are listed on the Locations Index page. The user should be able to navigate between the Homepage, Locations Index page and the Locations Details page by utilizing the Navigation bar.
 
 Next Steps:
 Improve styling 
+Add in a location search feature
+An 'Add Location' Form
 
-Add in a search feature
-Add a shopping link option for users
+
